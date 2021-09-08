@@ -19,7 +19,7 @@ Route::namespace('Api')->group(function(){
     Route::prefix('auth')->group(function(){
 
         Route::post('login', 'AuthController@login');
-        Route::post('login', 'AuthController@signup');
+        Route::post('signup', 'AuthController@signup');
 
     });
 
