@@ -1,21 +1,25 @@
 <?php
 
 namespace App\Http\Controllers\Api;
-
+ 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\User;
+use Illuminate\Support\Facades\Auth;
+ 
 class AuthController extends Controller
 {
+
     public function login(){
-        echo("login successfull");
+        echo "login requested";
     }
 
     public function signup(){
-        echo("signup successfull");
+        echo "signup requested";
     }
-
+ 
     public function index(){
-        echo("helo world");
+        echo "Hello World";
     }
+ 
 }
